@@ -252,6 +252,9 @@ svg {
   transform: translateX(0);
 }
 .close-mobile-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   right: 24px;
   top: 24px;
