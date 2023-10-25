@@ -263,9 +263,8 @@ svg {
 }
 
 .close-mobile-menu-icon {
-  border-radius: ;
   width: 8px;
-  height: 8px;
+  height: 18px;
   fill: var(--color-navyBlue-Dark);
 }
 
