@@ -28,7 +28,7 @@
               <a href="index.html" class="link logo">WEB<span class="toplogo">STUDIO</span></a>
             </li>
             <li class="nav-list-item">
-              <a href="index.html" class="link nav-list-link">Studio</a>
+              <a href="index.html" class="link nav-list-link active">Studio</a>
             </li>
             <li class="nav-list-item active">
               <a href="portfolio.html" class="link nav-list-link">Portfolio</a>
@@ -48,18 +48,77 @@
             <a href="tel:+110001111111" class="link contact-list-item">+11 (000) 111-11-11</a>
           </li>
         </ul>
+        <button type="button" class="burger js-open-menu">
+          <svg class="burger-icon">
+            <use href="./images/svg/symbol-defs.svg#burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="mobile-menu-container container">
+          <button type="button" class="close-mobile-menu js-close-menu">
+            <svg class="close-mobile-menu-icon">
+              <use href="../images/svg/symbol-defs.svg#close"></use>
+            </svg>
+          </button>
+          <nav class="mob-nav">
+            <ul class="list">
+              <li class="mob-nav-list"><a href="./index.html" class="h2 link">Studio</a></li>
+              <li class="mob-nav-list"><a href="./portfolio.html" class="h2 link">Portfolio</a></li>
+              <li class="mob-nav-list"><a href="./Contacts" class="h2 link">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="bottom-mob">
+            <ul class="list mob-contact-list">
+              <li><a href="tel:+110001111111" class="h2 link">+11 (000) 111-11-11</a></li>
+              <li><a href="mailto:info@devstudio.com" class="h3 link">info@devstudio.com</a></li>
+            </ul>
+            <ul class="social-list footer-social-list list">
+              <li class="social-list-item footer-social-items">
+                <a href="" class="social-list-link footer-social-links mob">
+                  <svg class="social-list-icon footer-social-icons">
+                    <use href="./images/svg/symbol-defs.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link footer-social-links mob">
+                  <svg class="social-list-icon footer-social-icons">
+                    <use href="./images/svg/symbol-defs.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link footer-social-links mob">
+                  <svg class="social-list-icon footer-social-icons">
+                    <use href="./images/svg/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link footer-social-links mob">
+                  <svg class="social-list-icon footer-social-icons">
+                    <use href="./images/svg/symbol-defs.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <section>
         <h2 hidden>Portfolio buttons filtr</h2>
-        <ul class="list filtr-list">
-          <li><button type="button" class="filtr-button">All</button></li>
-          <li><button type="button" class="filtr-button">Web Site</button></li>
-          <li><button type="button" class="filtr-button">App</button></li>
-          <li><button type="button" class="filtr-button">Design</button></li>
-          <li><button type="button" class="filtr-button">Marketing</button></li>
-        </ul>
+        <div class="container">
+          <ul class="list filtr-list">
+            <li><button type="button" class="filtr-button">All</button></li>
+            <li><button type="button" class="filtr-button">Web Site</button></li>
+            <li><button type="button" class="filtr-button">App</button></li>
+            <li><button type="button" class="filtr-button">Design</button></li>
+            <li><button type="button" class="filtr-button">Marketing</button></li>
+          </ul>
+        </div>
       </section>
       <section>
         <div class="container">
@@ -263,6 +322,6 @@
       </div>
     </footer>
     <script src="./modal.js"></script>
-            <script src="./mobile-menu.js"></script>
+    <script src="./mobile-menu.js"></script>
   </body>
 </html>
