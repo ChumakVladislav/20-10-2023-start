@@ -267,7 +267,7 @@ svg {
 
 .close-mobile-menu-icon {
   width: 8px;
-  height: 18px;
+  height: 8px;
   fill: var(--color-navyBlue-Dark);
 }
 
@@ -724,7 +724,7 @@ svg {
 }
 
 .modal-h2 {
-  margin-top: 72px;
+  margin-top: 82px;
   margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
